@@ -65,14 +65,14 @@ const TeamMembers = () => {
                   <p className="text-xs text-gray-400">{u.email}</p>
                 </div>
               </div>
-              <div className="flex gap-2">
-                <span className="badge bg-violet-100 text-violet-700 flex-1 text-center">
+              <div className="flex flex-wrap gap-2">
+                <span className="badge bg-violet-100 text-violet-700 text-center">
                   {u.pending} Pending
                 </span>
-                <span className="badge bg-cyan-100 text-cyan-700 flex-1 text-center">
+                <span className="badge bg-cyan-100 text-cyan-700 text-center">
                   {u.inProgress} In Progress
                 </span>
-                <span className="badge bg-green-100 text-green-700 flex-1 text-center">
+                <span className="badge bg-green-100 text-green-700 text-center">
                   {u.completed} Completed
                 </span>
               </div>

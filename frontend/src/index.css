@@ -27,5 +27,5 @@ body {
 }
 
 .badge {
-  @apply text-[11px] font-medium px-2.5 py-1 rounded-full inline-block;
+  @apply text-[11px] font-medium px-2.5 py-1 rounded-full inline-block whitespace-nowrap;
 }

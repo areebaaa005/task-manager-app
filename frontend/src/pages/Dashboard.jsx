@@ -142,7 +142,7 @@ const Dashboard = () => {
           </button>
         </div>
         <div className="overflow-x-auto">
-          <table className="w-full text-sm">
+          <table className="w-full min-w-[560px] text-sm">
             <thead>
               <tr className="text-left text-gray-400 text-xs border-b border-gray-100">
                 <th className="pb-3 font-medium">Name</th>
