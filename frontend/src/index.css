@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-surface text-gray-900;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+.input-box {
+  @apply w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 text-sm outline-none focus:border-primary focus:bg-white transition-colors;
+}
+
+.btn-primary {
+  @apply w-full bg-primary hover:bg-primary-dark text-white font-semibold text-sm py-3 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed;
+}
+
+.badge {
+  @apply text-[11px] font-medium px-2.5 py-1 rounded-full inline-block;
+}
